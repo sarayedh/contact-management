@@ -97,7 +97,7 @@ render() {
                       </select>
                     </div>
                  
-                  <button className="ui button blue"> Update </button>
+                  <button className="ui button blue" onClick="window.location.reload()" > Update </button>
 
               </form>
 
