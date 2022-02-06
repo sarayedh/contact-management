@@ -81,16 +81,16 @@ class AddContact extends React.Component {
           <div className="field">
           <label>City</label>
             <select name="city" onClick= {(e) => this.setState({city: e.target.value})}>
-              <option value="Tunis"> Tunis </option>
-              <option value="Manouba"> Manouba </option>
-              <option value="Ariana"> Ariana </option>
-              <option value="Sfax"> Sfax </option>
-              <option value="Sousse"> Sousse </option>
-              <option value="Medenine"> Medenine </option>
+              <option selected="Tunis"> Tunis </option>
+              <option selected="Manouba"> Manouba </option>
+              <option selected="Ariana"> Ariana </option>
+              <option selected="Sfax"> Sfax </option>
+              <option selected="Sousse"> Sousse </option>
+              <option selected="Medenine"> Medenine </option>
             </select>
           </div>
 
-          <button className="ui button blue">Add</button>
+          <button className="ui button blue" onClick="window.location.reload()" >Add</button>
         </form>
       </div>
     );
