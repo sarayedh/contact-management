@@ -73,7 +73,7 @@ function App() {//functionnal component
     };
 
     getAllCOntacts();
-  }, []);
+  }, [contacts]);
 
   //useEffect(() => {
     //localStorage.setItem(LOCAL_STORAGE_KEY, JSON.stringify(contacts)); 
