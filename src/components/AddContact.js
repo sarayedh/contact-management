@@ -90,7 +90,7 @@ class AddContact extends React.Component {
             </select>
           </div>
 
-          <button className="ui button blue" onClick="window.location.reload()" >Add</button>
+          <button className="ui button blue"  >Add</button>
         </form>
       </div>
     );
